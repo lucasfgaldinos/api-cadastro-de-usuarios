@@ -1,0 +1,26 @@
+{
+  "name": "api-cadastro-de-usuarios",
+  "version": "1.0.0",
+  "description": "API - Cadastro de Usuários",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Lucas Galdino",
+    "url": "https://github.com/lucasfgaldinos"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.0",
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "prisma": "^6.0.0"
+  }
+}
