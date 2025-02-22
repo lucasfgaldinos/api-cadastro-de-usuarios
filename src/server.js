@@ -1,4 +1,5 @@
 import { PrismaClient } from '@prisma/client'
+import cors from 'cors'
 import express from 'express'
 import { StatusCodes } from 'http-status-codes'
 
@@ -6,6 +7,7 @@ const prisma = new PrismaClient()
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 const port = 3000
 
